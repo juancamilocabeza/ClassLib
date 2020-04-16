@@ -17,7 +17,7 @@ variables:
 steps:
 - task: CmdLine@2
   inputs:
-    script: 'Hello Juan Cabeza.' 
+    script: echo Hello Juan Cabeza.
 #- task: NuGetToolInstaller@1
 
 #- task: NuGetCommand@2
